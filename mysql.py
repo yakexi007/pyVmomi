@@ -12,7 +12,7 @@ conf = ConfigParser.ConfigParser()
 conf.read('esxi.conf')
 dic = dict(conf.items('mysql'))
 
-conn = MySQLdb.connect(host='10.3.3.101',user='root',passwd='123qwe',db='webapps',charset='utf8')
+conn = MySQLdb.connect(host='xxx',user='xxx',passwd='xxx',db='webapps',charset='utf8')
 cur = conn.cursor()
 
 def insert(data):
